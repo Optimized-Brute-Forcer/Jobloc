@@ -1,0 +1,37 @@
+body{
+margin: 0;
+background-color: #d4ecddf1;
+}
+a{
+    text-decoration: none;
+    color:#D4ECDD;
+}
+/* Navbar */
+.navbar{
+    display: grid;
+    background-color: #112031;
+    grid-template-columns: 2.5fr 2fr repeat(4,1fr);
+    padding: 3%;
+    text-align: center;
+    color:#D4ECDD;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-item{
+    font-family: 'Comfortaa';
+    padding: 15px;  
+    justify-content: center;
+}
+.nav-name{
+    font-size: 50px;
+    padding: 0;
+}
+.nav-hover:hover{
+    border-radius: 100px;
+    background-color: #345B63;
+}
+/* Home */
+.space{margin-top: 5%;}
